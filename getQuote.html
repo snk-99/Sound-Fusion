@@ -37,19 +37,18 @@
     </nav>
 
     <div class="container">
+        <!-- Main section -->
         <main>
             <div class="py-5 text-center">
-
                 <h2>Request a Quote</h2>
-
             </div>
 
             <div class="row g-5 text-center d-flex justify-content-center">
-
                 <div class="col-md-7 col-lg-8">
-
                     <form class="needs-validation" novalidate="">
                         <div class="row g-3">
+
+                            <!-- first name -->
                             <div class="col-sm-6">
                                 <label for="firstName" class="form-label">First name</label>
                                 <input type="text" class="form-control" id="firstName" placeholder="" value=""
@@ -59,6 +58,7 @@
                                 </div>
                             </div>
 
+                            <!-- last name -->
                             <div class="col-sm-6">
                                 <label for="lastName" class="form-label">Last name</label>
                                 <input type="text" class="form-control" id="lastName" placeholder="" value=""
@@ -68,8 +68,7 @@
                                 </div>
                             </div>
 
-
-
+                            <!-- email address -->
                             <div class="col-12">
                                 <label for="email" class="form-label">Email <span class="text-muted">*</span></label>
                                 <input type="email" class="form-control" id="email" placeholder="you@example.com">
@@ -77,6 +76,8 @@
                                     Please enter a valid email address .
                                 </div>
                             </div>
+
+                            <!-- business name -->
                             <div class="col-12">
                                 <label for="email" class="form-label">Business Name <span
                                         class="text-muted">*</span></label>
@@ -86,27 +87,30 @@
                                 </div>
                             </div>
 
+                            <!-- adrdress -->
                             <div class="col-12">
                                 <label for="address" class="form-label">Address</label>
                                 <input type="text" class="form-control" id="address" placeholder="1234 sound way"
                                     required="">
                                 <div class="invalid-feedback">
-                                    Please enter your shipping address.
+                                    Please enter your address.
                                 </div>
                             </div>
 
-                            <div class="col-12">
-                                <label for="address2" class="form-label">Tell us a little more about you company <span
-                                        class="text-muted">(Optional)</span></label>
-                                <input type="text" class="form-control" id="address2">
+                            <!-- more info -->
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea2">Tell us more about your company</label>
+                                <textarea class="form-control rounded-0" id="exampleFormControlTextarea2"
+                                    rows="3"></textarea>
                             </div>
 
 
                         </div>
 
+                        <!-- seperation line -->
                         <hr class="my-4">
 
-
+                        <!-- intrests -->
                         <h4 class="mb-3">Are you interested in</h4>
                         <section class="form-check ">
                             <div class="form-check d-flex">
@@ -150,6 +154,7 @@
             </div>
         </main>
 
+        <!-- footer -->
         <footer class="my-5 pt-5 text-muted text-center text-small">
             <p class="mb-1">© 2022 SoundFusion</p>
             <ul class="list-inline">
@@ -160,14 +165,8 @@
         </footer>
     </div>
 
-
-    <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-
-
 
 </body>
 
