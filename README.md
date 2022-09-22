@@ -25,7 +25,7 @@ git clone
 
 ## Login & signup
 
-![ogin](./images/readme/login.png)
+![login](./images/readme/login.png)
 ![signup](./images/readme/signin.png)
 
 ## Home page
