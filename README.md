@@ -25,12 +25,24 @@ git clone
 
 ## Login & signup
 
-![signup](./images/readme/login.png)
-![login](./images/readme/signin.png)
+![ogin](./images/readme/login.png)
+![signup](./images/readme/signin.png)
 
 ## Home page
 
 ![homepge](./images/readme/home.png)
+
+## products page
+
+![products](./images/readme/product.png)
+
+## Get a Quotes page
+
+![products](./images/readme/quote.png)
+
+## Checkout page
+
+![products](./images/readme/checkout.png)
 
 # Questions
 
